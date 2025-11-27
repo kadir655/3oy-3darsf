@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Румтибет</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class=" font-sans">
+
+
+  <header class="w-full py-6 absolute top-0 left-0 z-20">
+    <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+      <img src="images/Clip path group.svg" />
+      <nav class=" flex gap-8 text-white font-medium max-md:hidden">
+        <a href="#" class="hover:opacity-70">Главная</a>
+        <a href="#" class="hover:opacity-70">Про гида</a>
+        <a href="#" class="hover:opacity-70">Программа тура</a>
+        <a href="#" class="hover:opacity-70">Стоимость</a>
+        <a href="#" class="hover:opacity-70">Блог</a>
+        <a href="#" class="hover:opacity-70">Контакты</a>
+        <button class="bg-green-900 text-white px-4 py-2 rounded-md">Консультация</button>
+      </nav>
+      <img class="hidden max-md:block" src="images/heroicons-solid_menu-alt-3.svg" alt="burger">
+    </div>
+  </header>
+
+
+  <section class="h-[650px]  flex items-center bg-[url(./images/bac.png)] bg-cover bg-no-repeat">
+    <div class="max-w-5xl mx-auto px-4 text-white">
+      <p class="text-4xl md:text-5xl font-bold ">
+
+        НАСЛАДИСЬ ПРОГУЛКОЙ В ГОРАХ<br>С КОМАНДОЙ ЕДИНОМЫШЛЕННИКОВ
+      </p>
+
+
+      <div
+        class="mt-10 bg-white/30 backdrop-blur-xl p-6 rounded-xl grid max-md:grid-cols-5 gap-4 max-md:hidden text-black">
+        <div>
+          <select class="bg-transparent">
+            <option value="">
+
+              <p class="text-sm font-medium">Локация для тура</p>
+            </option>
+          </select>
+          <p class="text-xs opacity-80">выберите из списка</p>
+        </div>
+        <div>
+          <p class="text-sm font-medium">Дата похода</p>
+          <input class="bg-transparent" placeholder="дата похода" type="date">
+          <p class="text-xs opacity-80">укажите диапазон</p>
+        </div>
+        <div>
+          <select class="bg-transparent" name="" id="">
+
+            <option value="">
+              <p>Участники</p>
+            </option>
+
+          </select>
+          <p class="text-xs opacity-80">минимум 4 человека</p>
+        </div>
+        <div class="max-md:col-span-2 flex items-center">
+          <button class="text-[#1A3E3E] bg-white px-10 py-3 rounded-md font-medium">Найти программу</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-4 py-20">
+
+
+    <div class="relative max-md:items-center justify-center">
+      <img class="rounded-2xl w-64 md:w-80 shadow-lg max-md:w-[400px] max-md:h-[300px] " src="images/Rectangle 4.svg" />
+      <img class="rounded-2xl w-64 md:w-80 shadow-lg max-md:hidden absolute top-32 left-32"
+        src="images/Rectangle 5.svg" />
+    </div>
+
+
+    <div class="flex flex-col justify-center">
+      <p class="text-yellow-600 font-medium tracking-wide">о нашем походе</p>
+      <h2 class="text-3xl font-bold mt-2 leading-tight">Исследуйте все горные массивы<br>мира вместе с нами</h2>
+      <p class="mt-4 text-gray-600 text-sm leading-relaxed">Его корни уходят в один фрагмент классической латыни 45 года
+        н.э., то есть более двух тысячелетий назад. Ричард МакКлинток...</p>
+      <button class="mt-6 bg-green-900 text-white px-6 py-3 rounded-md w-fit">Программа тура</button>
+    </div>
+  </section>
+
+
+  <section class="bg-gray-100 py-20">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 px-4">
+
+
+      <div>
+        <p class="text-yellow-600 font-medium tracking-wide">наше предложение</p>
+        <h2 class="text-3xl font-bold mt-2">Лучшие программы для тебя</h2>
+        <p class="mt-4 text-gray-600 text-sm leading-relaxed">Его корни уходят в один фрагмент классической латыни 45
+          года н.э...</p>
+
+
+        <div class="mt-6 space-y-6">
+          <div class="flex gap-4">
+            <div class="w-10 h-10 bg-green-900 rounded-md"></div>
+            <div>
+              <h3 class="font-semibold">Опытный гид</h3>
+              <p class="text-sm text-gray-600">Для современного мира базовый вектор развития...</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="w-10 h-10 bg-blue-900 rounded-md"></div>
+            <div>
+              <h3 class="font-semibold">Безопасный поход</h3>
+              <p class="text-sm text-gray-600">Для современного мира базовый вектор развития...</p>
+            </div>
+          </div>
+
+          <div class="flex gap-4">
+            <div class="w-10 h-10 bg-yellow-500 rounded-md"></div>
+            <div>
+              <h3 class="font-semibold">Лояльные цены</h3>
+              <p class="text-sm text-gray-600">Для современного мира базовый вектор развития...</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="mt-8 bg-green-900 text-white px-6 py-3 rounded-md">Стоимость программ</button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-2">
+        <img class=" " src="images/Rectangle 10.svg" />
+        <img class="  " src="images/Rectangle 11.svg" />
+        <img class=" " src="images/Rectangle 9.svg" />
+        <img class=" " src="images/Rectangle 8.svg" />
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="flex items-center justify-center flex-col font-semibold">
+      <h3 class="text-yellow-300 font-semibold">по версии отдыхающих</h3>
+      <h3 class="text-[32px]">Популярные направления</h3>
+      <div class="flex items-center  flex-row gap-5 mt-5 max-md:overflow-auto">
+        <img class="w-[300px] h-[200]" src="images/popular_tour.png" alt="scrol">
+        <img class="w-[300px] h-[200]" src="images/popular_tour (2).png" alt="scrol">
+        <img class="w-[300px] h-[200]" src="images/popular_tour (1).png" alt="scrol">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="font-semibold flex items-center flex-col">
+      <h3 class="text-yellow-300">делимся впечатлениями</h3>
+      <h3 class="text-[32px]">Блог о путешествиях</h3>
+      <div class="">
+        <div class="">
+            <img src="images/Rectangle 19.png" alt="imgd">
+            <h3>Красивая Италя, какая она в реальности?</h3>
+            <p>Для современного мира базовый вектор развития предполагает независимые способы реализации соответствующих условий активизации.</p>
+            <a href="/">01/04</a>
+            <a href="/"></a>
+        </div>
+        <div class="">
+
+        </div>
+        <div class="">
+
+        </div>
+        <div class="">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+
+</html>
